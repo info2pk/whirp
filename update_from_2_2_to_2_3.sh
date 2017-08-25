@@ -1,17 +1,3 @@
-git submodule init
-git submodule update
-git submodule sync
-rm -rf resources
-rm -rf third-party/eigen
-rm -rf third-party/clipper
-git submodule update
-cd resources
-git checkout master
-cd ../
-cd third-party/eigen
-git checkout tags/3.1.2
-cd ../../
-cd third-party/clipper
-git checkout master
-cd ../..
-git submodule update
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dd0bff552fcd0b1e5f68c62bf3aabf171752900ad4900dfaff576589e0ddad3
+size 317
